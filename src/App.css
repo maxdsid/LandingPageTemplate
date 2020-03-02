@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  #justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  grid-gap: 20px;
+}
+
+.submit {
+  color: #444444;
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 0.8em;
+  outline: none;
+}
+
+label span {
+  color: red;
+}
+
+#errors {
+  margin: 0;
+  color: red;
+}
